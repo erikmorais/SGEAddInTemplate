@@ -53,6 +53,10 @@ module.exports = async (env, options) => {
           from: "./src/assets/css/fluent.css"
         },
         {
+          to: "google-font.css",
+          from: "./src/assets/css/google-font.css"
+        },
+        {
           to: "fluent-icons.css",
           from: "./src/assets/icons/fluent-icons.css"
         },
@@ -60,7 +64,7 @@ module.exports = async (env, options) => {
           to: "fluent.js",
           from: "./src/assets/js/fluent.js"
         },
-        
+
         {
           to: "taskpane.css",
           from: "./src/taskpane/taskpane.css"
