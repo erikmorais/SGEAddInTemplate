@@ -244,6 +244,7 @@ ul.nav li{
 .zi4:hover{box-shadow:  12px 0 24px 0 rgba(0, 0, 0, 0.4), 0 6px 18px 0 rgba(0, 0, 0, 0.38); transition: 250ms;}
 
 /*Colors*/
+.red_sge{background:#eb4034; color:#FFF;}
 .transparent{background: transparent; color:#999;}
 .primary_blue{background: #0065AF; color:#FFF;}
 .primary_green{background: #28B85B; color:#FFF;}

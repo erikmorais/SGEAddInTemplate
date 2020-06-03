@@ -50,15 +50,15 @@ module.exports = async (env, options) => {
       new CopyWebpackPlugin([
         {
           to: "fluent.css",
-          from: "./src/taskpane/fluent.css"
+          from: "./src/assets/css/fluent.css"
         },
         {
           to: "fluent-icons.css",
-          from: "./src/taskpane/fluent-icons.css"
+          from: "./src/assets/icons/fluent-icons.css"
         },
         {
           to: "fluent.js",
-          from: "./src/taskpane/fluent.js"
+          from: "./src/assets/js/fluent.js"
         },
         
         {
