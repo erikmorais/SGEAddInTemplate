@@ -1,0 +1,45 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. -->
+<!-- This file shows how to design a first-run page that provides a welcome screen to the user about the features of the add-in. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoso Task Pane Add-in</title>
+
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+
+    <!-- For more information on Office UI Fabric, visit https://developer.microsoft.com/fabric. -->
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.1/css/fabric.min.css"/>
+
+    <!-- Template styles -->
+    <link href="taskpane.css" rel="stylesheet" type="text/css" />
+
+     <!-- Fluent Office UI styles -->
+    <link href="fluent.css" rel="stylesheet" type="text/css" />
+    <link href="fluent-icons.css" rel="stylesheet" type="text/css">
+    <script  type="text/javascript" src="fluent.js"></script>
+</head>
+
+<body class="ms-font-m ms-welcome">
+    <div class="column large9 pivot_container secondary_blue" style="position: fixed;">
+        <a class="pivot_button icon left" onclick="history.back();">
+            <i class="ms-Icon ms-Icon--Back" aria-hidden="true"></i>
+        </a>
+        <a class="pivot_button icon left" onclick="history.forward();">
+            <i class="ms-Icon ms-Icon--Forward" aria-hidden="true"></i>
+        </a>
+        <span class="small0 pivot_heading">Fluent Design For Web</span>
+        <a href="controls.html" class="pivot_button right">Controls</a>
+        <a href="styles.html" class="pivot_button right">Styles</a>
+        <a href="index.html" class="pivot_button right active">Home</a>
+    </div>
+    <br><br><br><br>
+    <app-home></app-home>
+</body>
+
+</html>
