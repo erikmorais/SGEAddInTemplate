@@ -14,7 +14,7 @@ import ExperimentalComponent from './components/experimental/experimental.compme
 
 @NgModule({
   declarations: [AppComponent,WelcomeComponent,NaveMenuComponent, ExperimentalComponent],
-  imports: [BrowserModule],
+  imports: [BrowserModule, AppRoutingModule],
   bootstrap: [AppComponent]
 })
 export default class AppModule {}

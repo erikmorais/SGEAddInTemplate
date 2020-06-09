@@ -6,6 +6,8 @@ import WelcomeComponent from './components/welcome/welcome.component';
 
 const routes: Routes = [
      { path: 'welcome', component: WelcomeComponent },
+     { path: '*', component: WelcomeComponent },
+
     // { path: 'addbook', component: AddBookComponent },
     // { path: 'addreader', component: AddReaderComponent },
     // { path: 'editreader/:id', component: EditReaderComponent },
