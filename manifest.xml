@@ -12,6 +12,10 @@
   <AppDomains>
     <AppDomain>supportingeducation.com</AppDomain>
   </AppDomains>
+    <DefaultSettings>
+    <SourceLocation DefaultValue="https://localhost:3000/taskpane.html" />
+  </DefaultSettings>
+ 
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
@@ -26,6 +30,7 @@
         <SourceLocation DefaultValue="https://localhost:3000/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
+      
     </Form>
   </FormSettings>
   <Permissions>ReadWriteItem</Permissions>
