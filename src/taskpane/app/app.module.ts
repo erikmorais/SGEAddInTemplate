@@ -8,11 +8,12 @@ import AppComponent from "./app.component";
 import { AppRoutingModule } from './app-routing.module';
 import NaveMenuComponent from './components/menu/nav-menu.component';
 import WelcomeComponent from './components/welcome/welcome.component';
+import ExperimentalComponent from './components/experimental/experimental.compment';
 
 
 
 @NgModule({
-  declarations: [AppComponent,WelcomeComponent,NaveMenuComponent],
+  declarations: [AppComponent,WelcomeComponent,NaveMenuComponent, ExperimentalComponent],
   imports: [BrowserModule],
   bootstrap: [AppComponent]
 })
