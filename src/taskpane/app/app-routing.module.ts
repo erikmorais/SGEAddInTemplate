@@ -12,6 +12,9 @@ const routes: Routes = [
     // { path: 'addreader', component: AddReaderComponent },
     // { path: 'editreader/:id', component: EditReaderComponent },
     // { path: 'editbook/:id', component: EditBookComponent },
+    { path: '*', redirectTo: 'welcome', pathMatch: 'full' },
+    { path: 'taskpane', redirectTo: 'welcome', pathMatch: 'full' },
+    { path: 'taskpane.html', redirectTo: 'welcome', pathMatch: 'full' },
     { path: '', redirectTo: 'welcome', pathMatch: 'full' }
   ];
   
